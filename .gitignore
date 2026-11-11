@@ -1,0 +1,33 @@
+
+# Python virtual environments
+venv/
+source/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local databases and vector indexes
+*.db
+*.sqlite3
+chroma_db/
+
+# Uploaded PDF documents
+uploads/
+*.pdf
+
+# IDE files
+.vscode/
+.idea/
